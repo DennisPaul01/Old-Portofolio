@@ -13,12 +13,12 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://denniscode.com/about</loc>
+  <loc>http://denniscode.com/index</loc>
   <lastmod>2019-03-13T00:50:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://denniscode.com/index</loc>
+  <loc>http://denniscode.com/about</loc>
   <lastmod>2019-03-13T00:50:35+00:00</lastmod>
   <priority>0.80</priority>
 </url>
