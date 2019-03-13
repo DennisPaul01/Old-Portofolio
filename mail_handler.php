@@ -21,7 +21,7 @@
     exit();
 }
 
-Redirect('http://denniscode.com/contact-succes.html/', false);
+Redirect('http://denniscode.com/index.html/', false);
 		}
 		else{
 			echo "Something went wrong!";
