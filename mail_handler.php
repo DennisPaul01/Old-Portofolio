@@ -11,7 +11,17 @@
 		$headers="From: ".$email;
 
 		if(mail($to, $subject, $message, $headers)){
-			echo "<h1>Sent Successfully! Thank you"." ".$name.", I will contact you shortly!</h1>";
+			function Redirect($url, $permanent = false)
+{
+    if (headers_sent() === false)
+    {
+        header('Location: ' . $url, true, ($permanent === true) ? 301 : 302);
+    }
+
+    exit();
+}
+
+Redirect('http://denniscode.com/contact-succes.html/', false);
 		}
 		else{
 			echo "Something went wrong!";
