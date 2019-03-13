@@ -1,0 +1,9 @@
+#Pornim modulul de mod_rewrite
+RewriteEngine On 
+#Un fel de IF care exclude directoarele si include doar fisierele 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.html -f 
+#Creem o regula prin care un "string" va aduce continului paginii "string".html
+#NC = no case (adica fara sa conteze daca avem litere mari sau mici)
+#L = last (aici se termina aceasta regula)
+RewriteRule ^([^.]+)$ $1.html [NC,L]
