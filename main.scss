@@ -401,9 +401,13 @@ background-size: cover;
 }
 .hover1:hover .image-project4{
 
-  background-size: 100% 100%;
+  background-size: 110% 110%;
 }
 .hover1:hover .image-project5{
+
+  background-size: 110% 110%;
+}
+.hover1:hover .image-project6{
 
   background-size: 110% 110%;
 }
@@ -432,16 +436,25 @@ background-size: cover;
 
 
 .image-project4{
-  background-image: url(img/day49.png);
+  background-image: url(img/foodine.jpg);
   max-width: 100%;
   height: 500px;
-  background-size: 90% 90%;
+  background-size: 100% 100%;
   transition: all 1s ease;
   background-position: center center;
 
 }
 .image-project5{
   background-image: url(img/bsport.png);
+  max-width: 100%;
+  height: 500px;
+  background-size: 100% 100%;
+  transition: all 1s ease;
+  background-position: center center;
+
+}
+.image-project6{
+  background-image: url(img/cumreciclez.jpg);
   max-width: 100%;
   height: 500px;
   background-size: 100% 100%;
